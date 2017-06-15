@@ -1711,7 +1711,7 @@ namespace Microsoft.Azure.Management.Samples.Common
             var adminPassword = "12NewPA$$w0rd!";
             var hostingPlanName = SdkContext.RandomResourceName("hpRSAT", 24);
             var webAppName = SdkContext.RandomResourceName("wnRSAT", 24);
-            var armTemplateString = File.ReadAllText(Path.Combine(Utilities.ProjectPath, "Asset", templateFileName));
+            var armTemplateString = File.ReadAllText(Path.Combine(Utilities.ProjectPath, "ARMTemplate", templateFileName));
 
             var parsedTemplate = JObject.Parse(armTemplateString);
 
