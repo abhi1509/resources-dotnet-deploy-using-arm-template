@@ -23,7 +23,7 @@ namespace DeployUsingARMTemplate
 
             try
             {
-                var templateJson = Utilities.GetArmTemplate("ArmTemplate.json");
+                var templateJson = Utilities.GetArmTemplate("TemplateValue.json");
 
                 //=============================================================
                 // Create resource group.
